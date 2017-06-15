@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/suneil/.nvm/versions/node/v6.3.0/bin/node',
+1 verbose cli   '/Users/suneil/.nvm/versions/node/v6.3.0/bin/ynpm',
+1 verbose cli   'lint' ]
+2 silly now 2017-06-15T21:49:15.690Z
+3 silly hostname C02MG89BFD57-lm
+4 silly platform darwin
+5 silly arch x64
+6 silly release 16.6.0
+7 silly node { http_parser: '2.7.0',
+7 silly node   node: '6.3.0',
+7 silly node   v8: '5.0.71.52',
+7 silly node   uv: '1.9.1',
+7 silly node   zlib: '1.2.8',
+7 silly node   ares: '1.10.1-DEV',
+7 silly node   icu: '57.1',
+7 silly node   modules: '48',
+7 silly node   openssl: '1.0.2h',
+7 silly node   ynpm: '3.4.25',
+7 silly node   npm: '3.10.9' }
+8 info using ynpm@3.4.25
+9 info using npm@3.10.9
+10 info using node@v6.3.0
+11 silly conf { argv: { remain: [ 'lint' ], cooked: [ 'lint' ], original: [ 'lint' ] } }
+12 silly argv undefined
+13 silly looking for command:  install
+14 silly found proxy command for install
+15 silly looking for command:  lint
+16 silly found proxy command for lint
+17 info attemping to lint: ./package.json
+18 info package.json valid? false
+19 error Missing required field yahoo
+20 warn Missing recommended field bugs
+21 reco Missing optional field homepage
+22 reco Missing optional field engines
+23 info command completed in: 0.294 seconds
+24 info Fixing package.json /Users/suneil/Developer/fluxible-immutable-utils/package.json
+25 verbose stack Error: package.json contains errors
+25 verbose stack     at ynpmlint (/Users/suneil/.nvm/versions/node/v6.3.0/lib/node_modules/ynpm/lib/lint.js:21:15)
+25 verbose stack     at EventEmitter.<anonymous> (/Users/suneil/.nvm/versions/node/v6.3.0/lib/node_modules/ynpm/bin/ynpm-cli.js:116:9)
+25 verbose stack     at EventEmitter.<anonymous> (/Users/suneil/.nvm/versions/node/v6.3.0/lib/node_modules/ynpm/index.js:234:18)
+25 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:67:7)
+25 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+26 verbose cwd /Users/suneil/Developer/fluxible-immutable-utils
+27 error Darwin 16.6.0
+28 error argv "/Users/suneil/.nvm/versions/node/v6.3.0/bin/node" "/Users/suneil/.nvm/versions/node/v6.3.0/bin/ynpm" "lint"
+29 error node v6.3.0
+30 error npm -v 3.10.9
+31 error ynpm -v 3.4.25
+32 error package.json contains errors
+33 error If you need help, you may report this log at:
+33 error http://yo/ynpm-support (or http://yo/sd-support)
+34 verbose exit [ 1, true ]
